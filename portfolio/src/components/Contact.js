@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
-
+import { toast , ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
 
     const [email , setEmail] = useState('')
     const [querie , setQuerie] = useState('')
+
+    console.log(process.env.REACT_APP_SERVER)
 
     const submitHandlers = async (e)=>{
           e.preventDefault()
@@ -12,7 +15,7 @@ const Contact = () => {
             email,
             query: querie
           }
-          await fetch("http://localhost:3001/api/accept",{
+          await fetch( process.env.REACT_APP_SERVER ,{
              method:"POST",
              headers:{
                 'Content-Type':"application/json"
@@ -20,11 +23,18 @@ const Contact = () => {
              body:JSON.stringify(obj)
           }).then((res)=>res.json())
             .then(data=>{
-                if(data){
-                    console.log("success")
-                }
-            })
-            .catch(err=>console.log(err.message))
+               
+              if(data.success){
+               toast.success(data.message)
+              }
+              else{
+                toast.error(data.message)
+              }
+               
+              })
+            .catch(err=>{
+               toast.error("server is Not Found")
+            }) 
 
        
     }
@@ -50,13 +60,14 @@ const Contact = () => {
 
             <div className='footer'>
                  <div className='fs-3 fw-thin'>@MaheshDev</div>
-                 <ul>
-                    <li><a className=' btn btn-outline-primary'><i class="bi bi-twitter" style={{color:"white"}}></i></a></li>
-                    <li><a className=' btn btn-outline-primary'><i class="bi bi-linkedin" style={{color:"white"}}></i></a></li>
-                    <li><a className=' btn btn-outline-primary'><i class="bi bi-github" style={{color:"white"}}></i></a></li>
+                 <ul style={{marginLeft:"-2rem"}}>
+                    <li><a className=' btn btn-outline-primary' href={process.env.REACT_APP_TWITTER_URL}><i class="bi bi-twitter" style={{color:"white"}}></i></a></li>
+                    <li><a className=' btn btn-outline-primary' href={process.env.REACT_APP_LINKEDIN_URL}><i class="bi bi-linkedin" style={{color:"white"}}></i></a></li>
+                    <li><a className=' btn btn-outline-primary' href={process.env.REACT_APP_GITHUB_URL}><i class="bi bi-github" style={{color:"white"}}></i></a></li>
                  </ul>
             </div>
          </div>
+         <ToastContainer />
     </div>
   )
 }

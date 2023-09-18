@@ -20,8 +20,8 @@ const Projects = () => {
                                     <li>Javascript is used in the accordions and menubar in mobile responsive and so on</li>
                                     <li>It is the project that showcasing the frontend part of frontend.io challenging landing page.</li>
                                     <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href='https://maheshguduru3.github.io/frontendmentor/'>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href='https://github.com/MaheshGuduru3/frontendmentor'>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL1}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL1}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -36,8 +36,8 @@ const Projects = () => {
                                     <li>And it is responsive web application that we can use in these application mobile, tablet also</li>
                                     <li>Tech Stack Used REACTJS, BOOTSTRAP, REDUXTOOLKIT, RAPIDAPI</li>
                                     <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href='https://ecommercecartapp.netlify.app/'>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href='https://github.com/MaheshGuduru3/ecommerceCart'>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL2}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL2}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -54,8 +54,8 @@ const Projects = () => {
                                     <li>It have the search bar where you can search your related songs from your choice itself and in these application where you can see the channel details of one particular channel and many more..</li>
                                     <li>Tech Stack Used REACTJS, NODEJS, EXPRESSJS, MONGODB, FIREBASE, RAPIDAPI FOR YOUTUBE</li>
                                     <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href='https://demoyoutubeclone-maheshmh.netlify.app/'>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href='https://github.com/MaheshGuduru3/YoutubeCloneDemo'>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL3}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL3}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>

@@ -1,6 +1,5 @@
 const querys = require('../Schema/queryschema')
 
-
 const receiveMessages = async(req,res)=>{
      const { email , query } = req.body
      try{
