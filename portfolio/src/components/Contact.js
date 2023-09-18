@@ -15,7 +15,7 @@ const Contact = () => {
             email,
             query: querie
           }
-          await fetch( process.env.REACT_APP_SERVER ,{
+          await fetch( process.env.REACT_APP_SERVER + '/api/accept' ,{
              method:"POST",
              headers:{
                 'Content-Type':"application/json"
