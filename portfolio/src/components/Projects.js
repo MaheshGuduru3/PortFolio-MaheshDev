@@ -18,11 +18,9 @@ const Projects = () => {
                                     <li> Demonstrated a strong passion for web development through the creation of a dynamic and 
                                         user-friendly landing page. Showcased proficiency in HTML, CSS, and JavaScript by independently designing and building a 
                                         professional-grade landing page.</li>
-                                    <li>Utilized HTML to structure the page, CSS to style it, and JavaScript to add functionality and 
+                                     <li>Utilized HTML to structure the page, CSS to style it, and JavaScript to add functionality and 
                                         interactivity.It is the fully responsive web application.</li>
-                                    <li>Javascript is used in the accordions and menubar in mobile responsive and so on</li>
-                                    <li>It is the project that showcasing the frontend part of frontend.io challenging landing page.</li>
-                                    <li>
+                                      <li>
                                         <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL1}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                         <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL1}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
@@ -39,7 +37,6 @@ const Projects = () => {
                                         lem-solving skills.</li>
                                     <li>Implemented Bootstrap CSS to enhance project aesthetics and ensure responsive design. Incorporated essential functionalities like filtering, searching, and pagination, showcasing attention 
                                         to detail and user-friendly experience.</li>
-                                    <li>Tech Stack Used REACTJS, BOOTSTRAP, REDUXTOOLKIT, RAPIDAPI</li>
                                     <li>
                                         <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL2}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                         <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL2}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
