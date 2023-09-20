@@ -15,8 +15,11 @@ const Projects = () => {
                             <div className='projects_box'>
                                 <img  src={frontend}  alt='frontendMentor' title='Project1' className='projects_box_img' />
                                 <ul className='fs-6 fw-light'>
-                                    <li>It is developed by using only html5,css3,and javascript only.</li>
-                                    <li>It is the fully responsive web application.</li>
+                                    <li> Demonstrated a strong passion for web development through the creation of a dynamic and 
+                                        user-friendly landing page. Showcased proficiency in HTML, CSS, and JavaScript by independently designing and building a 
+                                        professional-grade landing page.</li>
+                                    <li>Utilized HTML to structure the page, CSS to style it, and JavaScript to add functionality and 
+                                        interactivity.It is the fully responsive web application.</li>
                                     <li>Javascript is used in the accordions and menubar in mobile responsive and so on</li>
                                     <li>It is the project that showcasing the frontend part of frontend.io challenging landing page.</li>
                                     <li>
@@ -32,8 +35,10 @@ const Projects = () => {
                             <div className='projects_box'>
                                 <img  src={cart}  alt='cart' title='Project2'  className='projects_box_img' />
                                 <ul className='fs-6 fw-light'>
-                                    <li>It is a Ecommerce Cart app in these application we can have the functionality like pagination, filter, searching , add to the cart , remove from the cart etc.</li>
-                                    <li>And it is responsive web application that we can use in these application mobile, tablet also</li>
+                                    <li>Developed a dynamic project using ReactJS, showcasing passion for front-end development. Utilized ReduxToolkit to efficiently store and manage project data, demonstrating strong prob
+                                        lem-solving skills.</li>
+                                    <li>Implemented Bootstrap CSS to enhance project aesthetics and ensure responsive design. Incorporated essential functionalities like filtering, searching, and pagination, showcasing attention 
+                                        to detail and user-friendly experience.</li>
                                     <li>Tech Stack Used REACTJS, BOOTSTRAP, REDUXTOOLKIT, RAPIDAPI</li>
                                     <li>
                                         <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL2}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
