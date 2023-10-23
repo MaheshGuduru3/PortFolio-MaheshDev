@@ -17,7 +17,7 @@ const Main = () => {
                                And I'm a {' '}
                                <span style={{ color: 'red', fontWeight: 'bold' }}>
                                     <Typewriter
-                                        words={['Full Stack Web Developer', 'Frontend Developer','MERN Stack web developer']}
+                                        words={['Full Stack Web Developer', 'Frontend Developer','MERN Developer']}
                                         loop={Infinity}
                                         cursor
                                         cursorStyle='_' 
