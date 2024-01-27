@@ -3,6 +3,7 @@ import ecommerce from '../Assests/Ecommerce.png'
 import frontend from '../Assests/frontendMentor.png'
 import youtubeimg from '../Assests/youtube.png'
 import cart from '../Assests/EcommerceCart1.png'
+import admins from '../Assests/admin.png'
 const Projects = () => {  
   return (
     <div className='container-fluid'  style={{position:'relative', top:'3.5rem'}} id="projects">
@@ -79,6 +80,22 @@ const Projects = () => {
                             </div>
                         </div> 
                         <h6 className='projects_number'>04</h6>
+                    </div>
+                    <div className='container  d-xs-flex flex-xs-column align-items-xs-center d-lg-flex align-items-lg-center'>
+                        <h6 className='projects_number'>05</h6>
+                        <div className='projects_main shadow-lg p-2'>
+                            <div className='projects_box'>
+                            <img  src={admins}  alt='frontendMentor' title='Project5' className='projects_box_img' />
+                                <ul className='fs-6 fw-light'>
+                                    <li> Developed a advanced crud admin dashboard in that we can the functionality like Delete User , Bulk Delete (More than 3 selected users),Checkbox for Selecting Multiple Users (Select 10 users for deleting),Update User, Search and pagination.</li>
+                                     <li>All the data are taken as the static data and these operations are done in memory location.</li>
+                                      <li>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL5}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL5}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                </div>
         </div>

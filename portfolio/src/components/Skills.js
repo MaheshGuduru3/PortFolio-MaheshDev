@@ -33,8 +33,11 @@ const Skills = () => {
                                     <div className='text-center'>
                                         <h6>GIT</h6>
                                         <h6>GITHUB</h6>
-                                        <h6>CORE JAVA</h6>
-                                        <h6>BASIC PYTHON</h6>
+                                        <h6>DOCKER</h6>
+                                        <h6>AWS(EC2,IAM,S3)</h6>
+                                        <h6>JAVA</h6>
+                                        <h6>TAILWIND CSS</h6>
+                                        <h6>BOOTSTRAP CSS</h6>
                                     </div>
                             </div>
                 </div>
