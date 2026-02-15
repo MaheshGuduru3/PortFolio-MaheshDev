@@ -14,6 +14,10 @@ const Skills = () => {
                                         <h6>JAVASCRIPT</h6>
                                         <h6>REACTJS</h6>
                                         <h6>REDUX TOOLKIT</h6>
+                                        <h6>NEXTJS</h6>
+                                        <h6>React Query</h6>
+                                        <h6>TAILWIND CSS</h6>
+                                        <h6>BOOTSTRAP CSS</h6>
                                     </div>
                                 </div>
                            
@@ -22,6 +26,8 @@ const Skills = () => {
                                     <div className='text-center'>
                                         <h6>NODEJS</h6>
                                         <h6>EXPRESSJS</h6>
+                                        <h6>FASTAPI</h6>
+                                        <h6>SQL</h6>
                                         <h6>MONGODB</h6>
                                         <h6>MONGOOSE</h6>
                                         <h6>FIREBASE</h6>
@@ -33,13 +39,29 @@ const Skills = () => {
                                     <div className='text-center'>
                                         <h6>GIT</h6>
                                         <h6>GITHUB</h6>
+                                        <h6>GITOPS</h6>
+                                        <h6>CI/CD PIPELINE</h6>
                                         <h6>DOCKER</h6>
-                                        <h6>AWS(EC2,IAM,S3)</h6>
+                                        <h6>AWS(EC2,S3)</h6>
                                         <h6>JAVA</h6>
-                                        <h6>TAILWIND CSS</h6>
-                                        <h6>BOOTSTRAP CSS</h6>
+                                        <h6>PYTHON</h6>
                                     </div>
-                            </div>
+                                </div>
+
+                                 <div className='items-col'>
+                                    <h5 className='text-center'><span><i class="bi bi-bucket-fill"></i></span>AI Skills</h5>
+                                    <div className='text-center'>
+                                        <h6>LLM MODELS</h6>
+                                        <h6>SLM MODELS</h6>
+                                        <h6>GEN AI</h6>
+                                        <h6>RAG</h6>
+                                        <h6>LANGCHAIN</h6>
+                                        <h6>LANGGRAPH</h6>
+                                        <h6>AGENTIC AI</h6>
+                                        <h6>FINETUNING</h6>
+                                        <h6>VECTOR DATABASE</h6>
+                                    </div>
+                                </div>
                 </div>
          </div>
     </div>
