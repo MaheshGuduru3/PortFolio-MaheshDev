@@ -20,8 +20,8 @@ const Projects = () => {
                                     <li> Developed an ecommerce web application using MERN stack,implemented key features including Google authentication, dark and light theme, search product, pagination, user profile, shopping cart, wishlist cart, cash on delivery method and payment gateway integration using Razorpay.</li>
                                      <li>Integrated functionality for managing product inventory, including in-stock and out-of-stock items.Integrated features for password recovery, email verification, and sending emails using Nodemailer.</li>
                                       <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL4}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL4}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL4} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL4} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -37,8 +37,8 @@ const Projects = () => {
                                     <li>Implemented Bootstrap CSS to enhance project aesthetics and ensure responsive design. Incorporated essential functionalities like filtering, searching, and pagination, showcasing attention 
                                         to detail and user-friendly experience.</li>
                                     <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL2}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL2}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL2} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL2} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -57,8 +57,8 @@ const Projects = () => {
                                      <li>Utilized HTML to structure the page, CSS to style it, and JavaScript to add functionality and 
                                         interactivity.It is the fully responsive web application.</li>
                                       <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL1}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL1}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL1} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL1} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -73,8 +73,8 @@ const Projects = () => {
                                     <li>It have the search bar where you can search your related songs from your choice itself and in these application where you can see the channel details of one particular channel and many more..</li>
                                     <li>Tech Stack Used REACTJS, NODEJS, EXPRESSJS, MONGODB, FIREBASE, RAPIDAPI FOR YOUTUBE</li>
                                     <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL3}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL3}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL3} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL3} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -90,8 +90,8 @@ const Projects = () => {
                                     <li> Developed a advanced crud admin dashboard in that we can the functionality like Delete User , Bulk Delete (More than 3 selected users),Checkbox for Selecting Multiple Users (Select 10 users for deleting),Update User, Search and pagination.</li>
                                      <li>All the data are taken as the static data and these operations are done in memory location.</li>
                                       <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL5}>LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL5}>REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL5} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
+                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL5} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
                                     </li>
                                 </ul>
                             </div>
