@@ -33,7 +33,7 @@ const Contact = () => {
           <p className="section-kicker">GET IN TOUCH</p>
           <h2>Let's build something great together.</h2>
           <p>I'm open to frontend software engineering opportunities and interesting product challenges.</p>
-          <a href="mailto:maheshguduru30@gmail.com" className="email-link">maheshgudurudev@gmail.com <i className="bi bi-arrow-up-right"></i></a>
+          <a href="mailto:maheshguduru30@gmail.com" className="email-link">maheshguduru30@gmail.com <i className="bi bi-arrow-up-right"></i></a>
         </div>
         <form className="contact-form" onSubmit={submitHandler}>
           <label>Email address<input type="email" value={email} placeholder="you@example.com" onChange={e => setEmail(e.target.value)} required /></label>
