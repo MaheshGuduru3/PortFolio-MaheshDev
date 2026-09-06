@@ -1,107 +1,250 @@
-import React from 'react'
-import ecommerce from '../Assests/Ecommerce.png'
-import frontend from '../Assests/frontendMentor.png'
-import youtubeimg from '../Assests/youtube.png'
-import cart from '../Assests/EcommerceCart1.png'
-import admins from '../Assests/admin.png'
-const Projects = () => {  
-  return (
-    <div className='container-fluid'  style={{position:'relative', top:'3.5rem'}} id="projects">
-      <div className='container  mt-5'>
-        <div  className='container'>
-               <div className='text-center fs-3 mb-4 fw-bold'>Projects</div>
-               <div className='container d-flex flex-column gap-5'>
-                    <div className='container  d-xs-flex flex-xs-column gap-xs-5 align-items-xs-center d-lg-flex align-items-lg-center'>
-                        <h6 className='projects_number'>01</h6>
-                        <div className='projects_main shadow-lg p-2'>
-                            <div className='projects_box'>
-                                <img  src={ecommerce}  alt='frontendMentor' title='Project1' className='projects_box_img' />
-                                <ul className='fs-6 fw-light'>
-                                    <li> Developed an ecommerce web application using MERN stack,implemented key features including Google authentication, dark and light theme, search product, pagination, user profile, shopping cart, wishlist cart, cash on delivery method and payment gateway integration using Razorpay.</li>
-                                     <li>Integrated functionality for managing product inventory, including in-stock and out-of-stock items.Integrated features for password recovery, email verification, and sending emails using Nodemailer.</li>
-                                      <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL4} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL4} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='container  d-xs-flex flex-xs-column align-items-xs-center d-lg-flex align-items-lg-center'> 
-                        <div className='projects_main shadow-lg p-2' id='project2'>
-                            <div className='projects_box'>
-                                <img  src={cart}  alt='cart' title='Project2'  className='projects_box_img' />
-                                <ul className='fs-6 fw-light'>
-                                    <li>Developed a dynamic project using ReactJS, showcasing passion for front-end development. Utilized ReduxToolkit to efficiently store and manage project data, demonstrating strong prob
-                                        lem-solving skills.</li>
-                                    <li>Implemented Bootstrap CSS to enhance project aesthetics and ensure responsive design. Incorporated essential functionalities like filtering, searching, and pagination, showcasing attention 
-                                        to detail and user-friendly experience.</li>
-                                    <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL2} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL2} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> 
-                        <h6 className='projects_number'>02</h6>
-                    </div>
-                    <div className='container  d-xs-flex flex-xs-column align-items-xs-center d-lg-flex align-items-lg-center'>
-                        <h6 className='projects_number'>03</h6>
-                        <div className='projects_main shadow-lg p-2'>
-                            <div className='projects_box'>
-                            <img  src={frontend}  alt='frontendMentor' title='Project3' className='projects_box_img' />
-                                <ul className='fs-6 fw-light'>
-                                    <li> Demonstrated a strong passion for web development through the creation of a dynamic and 
-                                        user-friendly landing page. Showcased proficiency in HTML, CSS, and JavaScript by independently designing and building a 
-                                        professional-grade landing page.</li>
-                                     <li>Utilized HTML to structure the page, CSS to style it, and JavaScript to add functionality and 
-                                        interactivity.It is the fully responsive web application.</li>
-                                      <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL1} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL1} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='container  d-xs-flex flex-xs-column align-items-xs-center d-lg-flex align-items-lg-center'> 
-                        <div className='projects_main shadow-lg p-2' id='project2'>
-                            <div className='projects_box'>
-                              <img  src={youtubeimg}  alt='youtubeimg' title='Project4'  className='projects_box_img' />
-                                <ul className='fs-6 fw-light'>
-                                    <li>It is a youtubeclone application having the functionallity of login and register with firebase google authentication method.It is responsive web application</li>
-                                    <li>It have the search bar where you can search your related songs from your choice itself and in these application where you can see the channel details of one particular channel and many more..</li>
-                                    <li>Tech Stack Used REACTJS, NODEJS, EXPRESSJS, MONGODB, FIREBASE, RAPIDAPI FOR YOUTUBE</li>
-                                    <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL3} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL3} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div> 
-                        <h6 className='projects_number'>04</h6>
-                    </div>
-                    <div className='container  d-xs-flex flex-xs-column align-items-xs-center d-lg-flex align-items-lg-center'>
-                        <h6 className='projects_number'>05</h6>
-                        <div className='projects_main shadow-lg p-2'>
-                            <div className='projects_box'>
-                            <img  src={admins}  alt='frontendMentor' title='Project5' className='projects_box_img' />
-                                <ul className='fs-6 fw-light'>
-                                    <li> Developed a advanced crud admin dashboard in that we can the functionality like Delete User , Bulk Delete (More than 3 selected users),Checkbox for Selecting Multiple Users (Select 10 users for deleting),Update User, Search and pagination.</li>
-                                     <li>All the data are taken as the static data and these operations are done in memory location.</li>
-                                      <li>
-                                        <a className='btn btn-outline-primary btn-sm fs-6 fw-light' href={process.env.REACT_APP_PROJECT_LIVE_LINK_URL5} target="_blank" rel="noreferrer">LIVE LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                        <a className='btn btn-outline-primary btn-sm mx-2 fs-6 fw-light' href={process.env.REACT_APP_PROJECT_REPO_LINK_URL5} target="_blank" rel="noreferrer">REPO LINK <span><i class="bi bi-box-arrow-up-right"></i></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-               </div>
-        </div>
-      </div>
-    </div>
-  )
-}
+import React, { useState } from "react";
 
-export default Projects
+import ecommerce from "../Assests/Ecommerce.png";
+import cart from "../Assests/EcommerceCart1.png";
+import frontend from "../Assests/frontendMentor.png";
+import youtubeimg from "../Assests/youtube.png";
+import admins from "../Assests/admin.png";
+
+const projects = [
+  {
+    no: "01",
+    title: "MERN E-Commerce Platform",
+    category: "Full Stack",
+    image: ecommerce,
+    description:
+      "Full-stack e-commerce application with authentication, search, pagination, cart, wishlist, order management and Razorpay integration.",
+    stack: ["React", "Node.js", "MongoDB", "Express", "Razorpay"],
+    live: "REACT_APP_PROJECT_LIVE_LINK_URL4",
+    repo: "REACT_APP_PROJECT_REPO_LINK_URL4",
+  },
+  {
+    no: "02",
+    title: "E-Commerce Cart",
+    category: "Frontend",
+    image: cart,
+    description:
+      "Responsive React application with Redux-based state management, filtering, search and pagination for a seamless shopping experience.",
+    stack: ["React", "Redux Toolkit", "JavaScript", "Bootstrap"],
+    live: "REACT_APP_PROJECT_LIVE_LINK_URL2",
+    repo: "REACT_APP_PROJECT_REPO_LINK_URL2",
+  },
+  {
+    no: "03",
+    title: "Product Landing Page",
+    category: "Frontend",
+    image: frontend,
+    description:
+      "Responsive landing page built from a design brief with strong attention to layout, interaction and cross-device behavior.",
+    stack: ["HTML", "CSS", "JavaScript"],
+    live: "REACT_APP_PROJECT_LIVE_LINK_URL1",
+    repo: "REACT_APP_PROJECT_REPO_LINK_URL1",
+  },
+  {
+    no: "04",
+    title: "YouTube Clone",
+    category: "Full Stack",
+    image: youtubeimg,
+    description:
+      "Video platform clone featuring authentication, search, channel views and external YouTube API integration.",
+    stack: ["React", "Firebase", "Node.js", "API"],
+    live: "REACT_APP_PROJECT_LIVE_LINK_URL3",
+    repo: "REACT_APP_PROJECT_REPO_LINK_URL3",
+  },
+  {
+    no: "05",
+    title: "Admin Dashboard",
+    category: "Frontend",
+    image: admins,
+    description:
+      "CRUD dashboard with search, pagination, bulk actions and multi-user selection workflows.",
+    stack: ["React", "JavaScript", "CRUD"],
+    live: "REACT_APP_PROJECT_LIVE_LINK_URL5",
+    repo: "REACT_APP_PROJECT_REPO_LINK_URL5",
+  },
+];
+
+const filters = ["All Projects", "Full Stack", "Frontend"];
+
+const Projects = () => {
+  const [activeFilter, setActiveFilter] = useState("All Projects");
+
+  const filteredProjects =
+    activeFilter === "All Projects"
+      ? projects
+      : projects.filter((project) => project.category === activeFilter);
+
+  return (
+    <section className="projects-section" id="projects">
+      <div className="projects-container">
+
+        {/* HEADER */}
+        <div className="projects-header">
+
+          <div className="projects-heading">
+
+            <span className="projects-kicker">
+              <span className="kicker-dot"></span>
+              SELECTED WORK
+            </span>
+
+            <h2>
+              Projects that
+              <br />
+              demonstrate how
+              <br />
+              I <span>build.</span>
+            </h2>
+
+          </div>
+
+          <div className="projects-header-right">
+
+            <p>
+              A collection of full-stack and frontend projects
+              solving real-world problems with modern technologies.
+            </p>
+
+            {/* FILTERS */}
+            <div className="project-filters">
+              {filters.map((filter) => (
+                <button
+                  key={filter}
+                  className={
+                    activeFilter === filter
+                      ? "filter-btn active"
+                      : "filter-btn"
+                  }
+                  onClick={() => setActiveFilter(filter)}
+                >
+                  {filter}
+                </button>
+              ))}
+            </div>
+
+          </div>
+        </div>
+
+        {/* PROJECT GRID */}
+        <div className="projects-grid">
+
+          {filteredProjects.map((project) => (
+
+            <article
+              className="modern-project-card"
+              key={project.no}
+            >
+
+              {/* IMAGE */}
+              <div className="project-preview">
+
+                <img
+                  src={project.image}
+                  alt={project.title}
+                />
+
+                <div className="project-overlay">
+                  <span>View Project</span>
+                  <i className="bi bi-arrow-up-right"></i>
+                </div>
+
+              </div>
+
+              {/* CONTENT */}
+              <div className="modern-project-content">
+
+                {/* NUMBER + TITLE */}
+                <div className="project-title-row">
+
+                  <span className="project-number">
+                    {project.no}
+                  </span>
+
+                  <h3>{project.title}</h3>
+
+                </div>
+
+                {/* DESCRIPTION */}
+                <p className="modern-project-description">
+                  {project.description}
+                </p>
+
+                {/* TECHNOLOGIES */}
+                <div className="modern-project-tags">
+
+                  {project.stack.map((technology) => (
+                    <span key={technology}>
+                      {technology}
+                    </span>
+                  ))}
+
+                </div>
+
+                {/* ACTIONS */}
+                <div className="modern-project-actions">
+
+                  <a
+                    href={process.env[project.live]}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="modern-live-link"
+                  >
+                    <i className="bi bi-box-arrow-up-right"></i>
+                    Live Demo
+                  </a>
+
+                  <a
+                    href={process.env[project.repo]}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="modern-source-link"
+                  >
+                    Source Code
+                    <i className="bi bi-github"></i>
+                  </a>
+
+                  <a
+                    href={process.env[project.live]}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="project-arrow"
+                    aria-label={`Open ${project.title}`}
+                  >
+                    <i className="bi bi-arrow-up-right"></i>
+                  </a>
+
+                </div>
+
+              </div>
+
+            </article>
+
+          ))}
+
+        </div>
+
+        {/* BOTTOM CTA */}
+        <div className="projects-cta">
+
+          <div className="cta-icon">
+            <i className="bi bi-stars"></i>
+          </div>
+
+          <div className="cta-content">
+            <h3>Interested in working together?</h3>
+            <p>Let's build something great.</p>
+          </div>
+
+          <a href="#contact" className="cta-button">
+            Get In Touch
+            <i className="bi bi-arrow-right"></i>
+          </a>
+
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Projects;

@@ -4,17 +4,19 @@ import Headers from './components/Headers';
 import Main from './components/Main';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
-
+import './styles/customStyles.css';
 
 function App() {
   return (
-    <div className="container-fluid p-0 m-0">
-       <Headers />
-       <Main />
-       <AboutMe />
-       <Skills />
-       <Projects />
-       <Contact />
+    <div className="app-shell">
+      <Headers />
+      <main>
+        <Main />
+        <Skills />
+        <AboutMe />
+        <Projects />
+        <Contact />
+      </main>
     </div>
   );
 }
